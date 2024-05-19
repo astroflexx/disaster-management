@@ -10,11 +10,12 @@
         document.addEventListener("DOMContentLoaded", () => {
             const btn = document.querySelector('#user-menu-button');
             const menu = document.querySelector('#user-menu');
+            menu.classList.add('hidden');
 
             btn.addEventListener('click', () => {
                 menu.classList.toggle('hidden');
             });
-        })
+        });
     </script>
 </head>
 
